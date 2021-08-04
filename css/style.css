@@ -1,0 +1,941 @@
+*
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.container
+{
+    width: 90%;
+    margin: auto ;
+}
+
+/* start header */
+.header
+{
+    background-image: url('../img/home-bg.jpg') ;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover ;
+    -o-background-size: cover ;
+    height: 700px ;
+    width: 100%;
+}
+.header .overlay
+{
+    width: 99%;
+    height: 700px;
+    left: 0.5% ;
+    top : 1.5% ;
+    z-index: 2 ;
+    background-color: rgb(14, 57, 105);
+    opacity: 0.8 ;
+    position: absolute;
+}
+.header .list
+{
+    z-index: 3 ;
+    position: absolute ;
+    margin-top: 20px ;
+    color: rgb(230, 223, 223) ;
+}
+.header .list h2
+{
+    display: inline-block ;
+    letter-spacing: 2px;
+}
+.header .list ul 
+{
+    float: right ;
+    list-style: none ;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.header .list ul li
+{
+    float: left ;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.header .list ul .email
+{
+    margin-left: 280px;
+}
+.header .list ul li a 
+{
+    text-decoration: none ;
+    color:  rgb(230, 223, 223) ;
+}
+.header .main
+{
+    z-index: 3 ;
+    position: absolute ;
+    margin-top: 300px;    
+    color: rgb(230, 223, 223) ;
+}
+.header .text p
+{
+    text-align: center ; 
+    text-transform: uppercase ;
+    margin-left: 40%;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+.header .text h1
+{
+    text-align: center ; 
+    font-size: 50px;
+    max-width: 90%;
+    margin-top: 10px;
+    margin-left: 40%;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.header .form input
+{
+    z-index: 1 ;
+    position: absolute ;
+    width: 290px;
+    padding: 15px 20px ;
+    margin-left: 49%;
+    border-radius: 30px;
+    border: none ;
+    font-size: 15px ;
+    font-weight: 600;
+    letter-spacing: 2px;
+    outline: none ;
+}
+.header .form button
+{      
+    z-index: 2 ;
+    position: absolute ;
+    width: 130px ;
+    padding: 15px 20px;
+    margin-left: 73% ;
+    border-radius: 30px;
+    border: none ;
+    cursor: pointer;
+    color: white ;
+    background-color: black;
+    font-size: 15px;
+    font-weight: 600 ;
+    letter-spacing: 2px;
+    outline: none ;
+}
+/* end header */ 
+
+/* start get */ 
+.get
+{
+    margin-top: 50px ;
+    height: 600px;
+}
+.get .text
+{
+    width: 45% ;
+    float: left ;
+    padding-top: 50px;
+}
+.get .text h1 , .get .text h2 , .get .text p
+{
+    margin-left: 40px;
+}
+.get .text h1
+{
+    letter-spacing: 2px;
+    font-size: 50px;
+    color: rgb(70, 67, 67);
+}
+.get .text ul
+{
+    margin-top: 40px ;
+    margin-bottom: 60px;
+    list-style: none ;
+}
+.get .text ul li
+{
+    float: left; 
+    margin-right: 20px;
+}
+.get .text ul li a
+{
+    color:  gray ;
+    font-weight: 700 ;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none ;
+}
+.get .text ul li a:active , .get .text ul li:hover
+{
+    padding-bottom: 7px;
+    cursor: pointer ;
+    color: black;
+    border-bottom: 3px solid rgb(30, 173, 30) ;
+}
+.get .text h2
+{
+    letter-spacing: 2px ;
+    font-size: 30px;
+    color: rgb(80, 77, 77) ;
+}
+.get .text p
+{
+    max-width: 80%;
+    letter-spacing: 1px ;
+    color: gray;
+    font-weight: 600;
+    font-size: 15px;
+}
+.get .image
+{
+    width: 45% ;
+    float: left ;
+}
+.get .image img
+{
+    width: 100% ;
+    height: 60%;
+    padding-left: 50px;
+}
+/* end get */ 
+
+/* start team */
+.team 
+{
+    padding-top: 70px;
+    height: 900px;
+    background-color: rgb(235, 238, 240);
+}
+.team h1
+{
+    margin-bottom: 40px;
+    text-align: center ;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: rgb(53, 51, 51);
+}
+.team .image
+{
+    width: 33% ;
+    float: left; 
+    background-color: white;
+}
+.team .image img
+{
+    width: 100% ;
+    height: 400px;
+}
+.team .image .text
+{
+    padding-left: 40px;
+}
+.team .image .text h2
+{
+    font-size: 30px;
+    padding-top: 25px;
+    letter-spacing: 2px;
+    line-height: 0.5;
+    color: rgb(107, 104, 104);
+}
+.team .image .text span
+{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold ;
+    color: rgb(63, 62, 62);
+}
+.team .image .text p
+{
+    max-width: 80%;
+    font-size: 15px;
+    font-weight: 900;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    color: rgb(119, 116, 116);
+}
+/* end team */ 
+
+/* start testi */ 
+.testi
+{
+    margin-top: 100px;
+    height: 550px;
+}
+.testi .image
+{
+    width: 50%;
+    height: 550px;
+    float: left;
+}
+.testi .image img
+{
+    width: 100%;
+    height: 100%;
+}
+.testi .text
+{
+    width: 44% ;
+    height: 550px;
+    float: left;
+    padding-left: 60px;
+    background-color: black ;
+}
+.testi .text h1 
+{
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 60px;
+    color: rgb(243, 241, 241);
+    letter-spacing: 2px;
+}
+.testi .text p
+{
+    font-size: 20px;
+    color: rgb(105, 102, 102);
+    letter-spacing: 2px;
+    font-weight: bold;
+    max-width: 70%;
+    padding-bottom: 10px;
+}
+.testi .text img
+{
+    border-radius: 50% 50%;
+    width: 50px;
+    height: 50px;
+}
+.testi .text span
+{
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(179, 171, 171);
+}
+.testi .text .point
+{
+    margin: auto ;
+    text-align: center ;
+    padding-top: 30px;
+}
+.testi .text .point span
+{
+    margin: 7px;
+    border-radius: 50% 50%;
+    background-color: rgb(212, 209, 209);
+}
+.testi .text .point span:hover , .testi .text .point span:visited
+{
+    background-color: rgb(122, 120, 120);
+    transition: 0.3s;
+}
+/* end testi  */
+
+/* start plan */
+.plan
+{
+    height: 680px;
+    margin-top: 100px;
+    background-color: rgb(235, 238, 240);
+}
+.plan h1
+{
+    text-align: center ;
+    padding-top: 90px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: rgb(117, 114, 114);
+}
+.plan .person 
+{
+    width: 28% ;
+    float: left;
+    margin-left: 5px;
+    padding-left: 40px;
+    background-color: white;
+}
+.plan .person h2
+{
+    padding-top: 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: rgb(110, 106, 106);
+}
+.plan .person hr
+{
+    width: 70% ;
+    margin-bottom: 30px;
+    border: 1px solid rgb(236, 228, 228);
+}
+.plan .person p
+{
+    font-weight: bold ;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: rgb(128, 125, 125);
+}
+.plan .person span
+{
+    font-size: 20px ;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(49, 49, 49);
+}
+.plan .person button 
+{
+    padding: 6px 30px ;
+    border-radius: 50px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    float: right;
+    border: none ;
+    background-color: cadetblue;
+    color: white;
+    outline: none ;
+    cursor: pointer;
+}
+/* end plan */
+
+/* start contact */
+.contact
+{
+    height: 540px;
+}
+.contact .container
+{
+    width: 70%;
+}
+.contact h1
+{
+    text-align: center ;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.contact input
+{
+    width: 29%;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    padding: 15px 15px;
+    font-size: 15px;
+    font-weight: bold ;
+    letter-spacing: 2px;
+    border: none ;
+    outline: none ;
+    border-bottom: 1px solid rgb(243, 240, 240);
+    box-shadow: 0px 2px 2px rgb(223, 221, 221);
+}
+.contact button
+{
+    background-color: black;
+    color: rgb(241, 238, 238) ;
+    padding: 15px 20px;
+    font-size: 17px ;
+    font-weight: bold ;
+    width: 29%;
+    letter-spacing: 2px;
+    border: none ;
+    border-radius: 30px ;
+    margin-left: 20px;
+    outline: none ;
+    cursor: pointer;
+}
+.contact textarea
+{
+    width: 95%;
+    height: 120px;
+    margin-top: 5px ;
+    margin-left: 10px;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: bold ;
+    letter-spacing: 2px;
+    border: none ;
+    outline: none ;
+    border-bottom: 1px solid rgb(243, 240, 240);
+    box-shadow: 0px 2px 2px rgb(223, 221, 221);
+}
+/* end contact */
+
+/* start footer */
+.footer 
+{
+    height: 100px ;
+}
+.footer .container
+{
+    width: 70% ;
+}
+.footer .text
+{
+    width: 50%;
+    float: left;
+   color: rgb(128, 126, 126);
+   font-weight: bold ;
+   letter-spacing: 2px;
+   font-size: 18px ;
+}
+.footer .text span
+{
+    color: black ;
+}
+.footer .image
+{
+    width: 30% ;
+    float: right;
+    padding-top: 20px;
+    margin-right: 100px;
+}
+.footer .image img
+{
+    float: right;
+    width: 20px;
+    margin-right: 30px;
+}
+.footer hr
+{
+    width: 90%;
+    margin-top: 30px;
+    border: 1px solid rgb(233, 229, 229);
+}
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 600px) 
+{
+    .header .list
+    {
+        margin-top: 20px;
+    }
+    .header .list h2
+     {
+         display: block ;
+         text-align: center;
+     }
+     .header .list ul 
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .header .list ul li
+    {
+        margin-left: 10px;
+    }
+    .header .list ul .email
+    {
+        margin-left: 80px;
+        padding-top: 14px;
+    }
+    .header .text p
+    {
+        margin-left: 5%;
+        font-size: 14px;
+    }
+    .header .text h1
+    {
+        margin-left: 15%;
+        max-width: 70%;
+        font-size: 30px;
+    }
+    .header .form input
+    {
+        width: 170px;
+        margin-left: 24%;
+    }
+    .header .form button
+    {      
+        margin-left: 50% ;
+    }
+    .get
+    {
+        margin-top: 0px ;
+        height: 1050px;
+    }
+    .get .text , .get .image
+    {
+        width: 100%;
+    }
+    .get .image img
+    {
+        width: 90% ;
+        height: 500px;
+        padding-left: 0px;
+    }.team 
+    {
+        height: 2300px;
+    }
+    .team h1
+    {
+        font-size: 40px;
+    }
+    .team .image
+    {
+        width: 100% ;
+        margin-bottom: 10px;
+    }.testi
+    {
+        height: 1250px;
+    }
+    .testi .image 
+    {
+        width: 100%;
+    }
+    .testi .text
+    {
+        width:  88% ;
+        height: 700px;
+        margin-top: 40px;
+    }
+    .plan
+    {
+        height: 1600px;
+    }
+    .plan .person
+    {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .contact
+    {
+        height: 650px;
+    }
+    .contact .container
+    {
+        width: 90%;
+    }
+    .contact input
+    {
+        width: 50%;
+        margin-left: 27%;
+    }
+    .contact button
+    {
+        width: 50%;
+        margin-left: 30%;
+    }
+    .contact textarea
+    {
+        width: 50%;
+        margin-left: 27%;
+    }
+    .footer
+    {
+        height:  200px ;
+    }
+    .footer .text
+    {
+        width: 100%;
+    }
+    .footer .image
+    {
+        width: 100% ;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-right: 10px;
+    }
+    .footer .image img
+    {
+        width: 20px;
+        margin-right: 30px;
+    }
+}
+
+
+
+@media screen and (min-width : 600px) and (max-width : 767px)
+{
+    .header .list
+    {
+        margin-top: 20px;
+    }
+    .header .list h2
+     {
+         display: block ;
+         text-align: center;
+     }
+     .header .list ul 
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .header .list ul li
+    {
+        margin-left: 10px;
+    }
+    .header .list ul .email
+    {
+        margin-left: 100px;
+    }
+    .header .text p
+    {
+        margin-left: 5%;
+    }
+    .header .text h1
+    {
+        margin-left: 15%;
+        max-width: 70%;
+    }
+    .header .form input
+    {
+        width: 170px;
+        margin-left: 25%;
+    }
+    .header .form button
+    {      
+        margin-left: 50% ;
+    }
+    .get
+    {
+        margin-top: 0px ;
+        height: 1050px;
+    }
+    .get .text , .get .image
+    {
+        width: 100%;
+    }
+    .get .image img
+    {
+        width: 90% ;
+        height: 500px;
+        padding-left: 0px;
+    }.team 
+    {
+        height: 1550px;
+    }
+    .team h1
+    {
+        font-size: 40px;
+    }
+    .team .image
+    {
+        width: 45% ;
+    }.testi
+    {
+        height: 1100px;
+    }
+    .testi .image 
+    {
+        width: 100%;
+    }
+    .testi .text
+    {
+        width:  89% ;
+        margin-top: 40px;
+    }
+    .plan
+    {
+        height: 1150px;
+    }
+    .plan .person
+    {
+        width: 40%;
+        margin-bottom: 15px;
+    }
+    .contact
+    {
+        height: 650px;
+    }
+    .contact .container
+    {
+        width: 80%;
+    }
+    .contact input
+    {
+        width: 50%;
+        margin-left: 27%;
+    }
+    .contact button
+    {
+        width: 50%;
+        margin-left: 30%;
+    }
+    .contact textarea
+    {
+        width: 50%;
+        margin-left: 27%;
+    }
+    .footer
+    {
+        height:  180px ;
+    }
+    .footer .text
+    {
+        width: 100%;
+    }
+    .footer .image
+    {
+        width: 100% ;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-right: 100px;
+    }
+    .footer .image img
+    {
+        width: 20px;
+        margin-right: 30px;
+    }
+}
+
+
+
+@media screen and (min-width : 768px) and (max-width : 991px)
+{
+     .header .list ul 
+    {
+        margin-left: 60px;
+    }
+    .header .list ul li
+    {
+        margin-left: 15px;
+    }
+    .header .list ul .email
+    {
+        margin-left: 70px;
+    }
+    .header .text p
+    {
+        margin-left: 5%;
+    }
+    .header .text h1
+    {
+        margin-left: 15%;
+        max-width: 70%;
+    }
+    .header .form input
+    {
+        margin-left: 30%;
+    }
+    .header .form button
+    {      
+        margin-left: 58% ;
+    }
+    .get .image
+    {
+        padding-top: 130px;
+    }
+    .testi .image
+    {
+        width: 47%;
+    }
+    .testi .text h1
+    {
+        padding-top: 30px;
+    }
+    .plan .person
+    {
+        width: 26%;
+    }
+    .contact .container
+    {
+        width: 80%;
+    }
+    .contact input
+    {
+        width: 27%;
+    }
+    .contact button
+    {
+        width: 27%;
+    }
+    .footer .text
+    {
+        width: 60%;
+    }
+    .footer .image
+    {
+        margin-right: 0px;
+    }
+
+}
+
+
+
+@media screen and (min-width : 992px) and ( max-width : 1049px)
+{
+    .header .list ul 
+    {
+        margin-left: 100px;
+    }
+    .header .list ul li 
+    {
+        margin-left: 20px;
+    }
+    .header .list ul .email
+    {
+        margin-left: 120px;
+    }
+}
+
+
+@media screen and (min-width : 992px) and ( max-width : 1249px)
+{
+    .header .list ul 
+    {
+        margin-left: 100px;
+    }
+    .header .list ul .email
+    {
+        margin-left: 150px;
+    }
+    .header .text p
+    {
+        margin-left: 25%;
+    }
+    .header .text h1
+    {
+        max-width: 70%;
+        margin-left: 25%;
+    }
+    .header .form input
+    {
+        margin-left: 40%;
+    }
+    .header .form button
+    {      
+        margin-left: 64% ;
+    }
+    .testi .image
+    {
+        width: 49%;
+    }
+    .plan .person button 
+    {
+        margin-right: 20px;
+    }
+    .contact input
+    {
+        width: 28%;
+    }
+    .contact button
+    {
+        width: 27%;
+    }
+    .footer .text
+    {
+        width: 60%;
+    }
+    .footer .image
+    {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width : 1250px) 
+{   
+    .header .list ul .email
+    {
+        margin-left: 240px;
+    }
+}
